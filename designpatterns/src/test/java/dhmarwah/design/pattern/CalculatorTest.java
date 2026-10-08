@@ -7,6 +7,7 @@ public class CalculatorTest {
     void testAdd() {
         Calculator calculator = new Calculator();
         int result = calculator.add(2, 3);
+        
         assert result == 5 : "Expected 5 but got " + result;
 
     }
